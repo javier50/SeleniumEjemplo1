@@ -1,0 +1,61 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+logs/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### Doc ###
+doc/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+ódigo compilado
+*.class
+target/**
+target-eclipse/**
+
+# Empaquetados
+ *.7z
+ *.dmg
+ *.gz
+ *.iso
+# #Se comenta por las bibliotecas que necesita Grails Wrapper
+*.jar
+ *.rar
+ *.tar
+ *.zip
+
+# # Logs
+ *.log
+
+# # Archivos de Eclipse e IntelliJ IDEA
+ .classpath
+ .project
+ .settings
+ *.iml
+ *.ipr
+ *.iws
+ .idea
+
+# #Archivos .DS_Store
+ .DS_Store
+/target/
